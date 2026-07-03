@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Épicerie | Produits authentiques d'Haïti</title>
+    <meta name="description" content="Découvrez Mon Épicerie, votre destination pour des produits authentiques importés d'Haïti. Située au 112 rue Croix Saint Loup prolongé.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="#" class="logo">
+                <span class="logo-text">Mon Épicerie</span>
+                <span class="logo-dot"></span>
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+                    <li><a href="#histoire" class="nav-link">Notre Histoire</a></li>
+                    <li><a href="#produits" class="nav-link">Produits Phares</a></li>
+                    <li><a href="#contact" class="nav-link btn-contact">Nous Contacter</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="accueil" class="hero">
+            <div class="hero-bg">
+                <img src="assets/hero.png" alt="Intérieur chaleureux de l'épicerie haïtienne" class="hero-image">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="container hero-content">
+                <h1 class="hero-title animate-up">Les saveurs authentiques <br><span>d'Haïti</span></h1>
+                <p class="hero-subtitle animate-up delay-1">En plein cœur de votre ville. Retrouvez le goût des îles et la chaleur des Caraïbes.</p>
+                <div class="hero-actions animate-up delay-2">
+                    <a href="#produits" class="btn btn-primary">Découvrir nos produits</a>
+                    <a href="#histoire" class="btn btn-secondary">Notre histoire</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Histoire Section -->
+        <section id="histoire" class="section histoire">
+            <div class="container histoire-container">
+                <div class="histoire-text">
+                    <h2 class="section-title">D'Haïti à <span>chez vous</span></h2>
+                    <p>Chez <strong>Mon Épicerie</strong>, nous croyons que la nourriture est le meilleur moyen de voyager. C'est pourquoi nous mettons un point d'honneur à vous proposer des produits 100% authentiques, importés directement d'Haïti.</p>
+                    <p>Chaque produit sur nos étagères raconte une histoire, celle des producteurs locaux, de notre culture vibrante et de nos traditions culinaires uniques. Laissez-vous transporter par des épices enivrantes, des cafés corsés et des délices tropicaux.</p>
+                </div>
+                <div class="histoire-visuals">
+                    <div class="color-block red-block"></div>
+                    <div class="color-block blue-block"></div>
+                    <div class="histoire-image-placeholder">
+                        <div class="haitian-flag-graphic">
+                            <div class="flag-blue"></div>
+                            <div class="flag-red"></div>
+                            <div class="flag-center"><div class="emblem"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Produits Section -->
+        <section id="produits" class="section produits">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Nos Produits <span>Phares</span></h2>
+                    <p class="section-subtitle">Une sélection de nos meilleures importations pour éveiller vos papilles.</p>
+                </div>
+                
+                <div class="products-grid">
+                    <!-- Produit 1 -->
+                    <article class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="assets/djon.png" alt="Champignons noirs Djon Djon" class="product-image">
+                            <span class="product-badge">Authentique</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Djon Djon (Champignons Noirs)</h3>
+                            <p class="product-desc">L'ingrédient secret de notre fameux riz national. Ces champignons séchés du Nord d'Haïti offrent un arôme incomparable.</p>
+                            <a href="#" class="product-link">En savoir plus &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- Produit 2 -->
+                    <article class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="assets/pikliz.png" alt="Pikliz Haïtien" class="product-image">
+                            <span class="product-badge hot">Épicé</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Pikliz Traditionnel</h3>
+                            <p class="product-desc">Le condiment indispensable ! Un mélange croquant de choux, carottes et piments Scotch Bonnet marinés qui réveille tous les plats.</p>
+                            <a href="#" class="product-link">En savoir plus &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- Produit 3 -->
+                    <article class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="assets/plantains.png" alt="Bananes pesées (Plantains)" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Bananes Plantains Fraîches</h3>
+                            <p class="product-desc">Parfaites pour préparer vos 'Bannann Peze'. Arrivage frais chaque semaine pour garantir une qualité optimale.</p>
+                            <a href="#" class="product-link">En savoir plus &rarr;</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer / Contact Section -->
+    <footer id="contact" class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo footer-logo">
+                    <span class="logo-text">Mon Épicerie</span>
+                    <span class="logo-dot"></span>
+                </a>
+                <p class="footer-desc">Votre marché tropical de proximité. Les saveurs de la Perle des Antilles vous attendent.</p>
+            </div>
+            
+            <div class="footer-contact">
+                <h4 class="footer-title">Nous rendre visite</h4>
+                <address class="address">
+                    <div class="address-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        <span>112 rue Croix Saint Loup prolongé<br><em>(Adresse principale)</em></span>
+                    </div>
+                    <div class="address-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        <span>01 23 45 67 89</span>
+                    </div>
+                </address>
+            </div>
+            
+            <div class="footer-hours">
+                <h4 class="footer-title">Horaires</h4>
+                <ul class="hours-list">
+                    <li><span>Lun - Ven:</span> <span>09h00 - 19h30</span></li>
+                    <li><span>Samedi:</span> <span>09h00 - 20h00</span></li>
+                    <li><span>Dimanche:</span> <span>Fermé</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Mon Épicerie. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
